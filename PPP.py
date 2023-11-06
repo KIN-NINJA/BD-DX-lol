@@ -301,24 +301,25 @@ class __bsn__:
                 pw = pw.lower()
                 session=requests.Session()
                 "login":"Log In"}
-                 header_freefb = {"authority": 'x.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    'dpr': '1.8000000715255737',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"RMX2101"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"11.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+                 header_freefb = {"authority": 'free.facebook.com',
+                "method": 'GET',
+                "scheme": 'https',
+                ''accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                ''accept-language': 'en-US,en;q=0.9',
+                ''cache-control': 'max-age=0',
+                ''sec-ch-prefers-color-scheme': 'light',
+                 ''sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+      .          ''sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.61"',
+                 ''sec-ch-ua-mobile': '?1',
+                 ''sec-ch-ua-model': '"vivo Y95"',
+                 ''sec-ch-ua-platform': '"Android"',
+                 ''sec-ch-ua-platform-version': '"8.1.0"',
+                 ''sec-fetch-dest': 'document',
+                 ''sec-fetch-mode': 'navigate',
+                 ''sec-fetch-site': 'none',
+                 ''sec-fetch-user': '?1',
+                 ''upgrade-insecure-requests': '1',
+                 "user-agent": pro}
                 r = session.get(f"https://{cebok}/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F", headers=header)
                 das = {
                     "lsd":re.search('name="lsd" value="(.*?)"', str(r.text)).group(1),
